@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f9fc2e1-0130-43cf-aa17-4c8754e61efc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drc/ExaminationSystemApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drc/bean/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drc/bean/Options.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drc/bean/Questions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drc/bean/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drc/bean/subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drc/config/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drc/config/MyHandlerInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drc/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drc/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drc/mapper/GetQuestions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drc/mapper/QuestionsMybatisPlusMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drc/mapper/SelectCountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drc/mapper/StudentMybatisPlusMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drc/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drc/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drc/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drc/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/SelectCountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/favition.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/theme1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/theme11.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/theme2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/theme3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/theme4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/theme5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/css/xadmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/fonts/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/fonts/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/fonts/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/aiwrap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/xadmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/js/xcity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/admin/lib/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/student/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/student/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/student/css/test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/student/js/jquery-1.11.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/student/js/jquery.countdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/student/js/jquery.easy-pie-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/student/js/question-get.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/admin-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/admin-cate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/admin-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/admin-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/admin-role.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/admin-rule.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/cate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/city.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/echarts1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/echarts2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/echarts3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/echarts4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/echarts5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/echarts6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/echarts7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/echarts8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/log.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/member-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/member-del.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/member-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/member-list1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/member-password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/order-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/order-list1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/question-modify.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/role-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/unicode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/welcome1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/student/ceshi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/student/question.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/student/question_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/drc/ExaminationSystemApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="examination-system" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="examination-system" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="examination-system" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="examination-system" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Thymeleaf" />
+        <option value="Class" />
+        <option value="MyBatis-sql代码" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/drc5521/examination-system" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/development/maven_repository" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="$USER_HOME$/development/maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="ProjectId" id="1gzb2J6vAIEiS7S90Pgxxi8lXp6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/student" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/student" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/admin/css" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/admin" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.drc.mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/public" />
+      <recent name="$PROJECT_DIR$/src/main/resources/mybatis" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.examination-system [clean]">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExaminationSystemApplicationTests.contextLoads" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.drc.ExaminationSystemApplicationTests.contextLoads&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="examination-system [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ExaminationSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="examination-system.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.drc.ExaminationSystemApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.examination-system [clean]" />
+        <item itemvalue="Gradle.ExaminationSystemApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f9fc2e1-0130-43cf-aa17-4c8754e61efc" name="Default Changelist" comment="" />
+      <created>1599120159588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599120159588</updated>
+      <workItem from="1599120164421" duration="4919000" />
+      <workItem from="1599125839027" duration="14807000" />
+      <workItem from="1599296722240" duration="4003000" />
+      <workItem from="1599349538836" duration="975000" />
+      <workItem from="1599395095803" duration="3598000" />
+      <workItem from="1599447859102" duration="2955000" />
+      <workItem from="1599470480389" duration="34661000" />
+      <workItem from="1599567534468" duration="2070000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="。。" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="701" y="355" width="507" height="357" key="#Notifications" timestamp="1599559013298">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state x="701" y="355" width="507" height="357" key="#Notifications/0.27.1920.1007@0.27.1920.1007" timestamp="1599559013298" />
+    <state x="2235" y="71" width="800" height="719" key="#Plugins" timestamp="1599125875360">
+      <screen x="1920" y="0" width="1440" height="900" />
+    </state>
+    <state x="2235" y="71" width="800" height="719" key="#Plugins/0.27.1920.827/1920.0.1440.900@1920.0.1440.900" timestamp="1599125875360" />
+    <state x="2036" y="79" width="1142" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599130877189">
+      <screen x="1920" y="0" width="1440" height="900" />
+    </state>
+    <state x="2036" y="79" width="1142" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.827/1920.0.1440.900@1920.0.1440.900" timestamp="1599130877189" />
+    <state x="759" y="289" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1599449631927">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state x="759" y="289" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1007@0.27.1920.1007" timestamp="1599449631927" />
+    <state x="2489" y="234" width="520" height="592" key="#com.intellij.ide.util.MemberChooser/0.27.1920.827/1920.0.1440.900@1920.0.1440.900" timestamp="1599135453705" />
+    <state x="559" y="27" width="783" height="1007" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599448233040">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state x="559" y="27" width="783" height="1007" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.27.1920.1007@0.27.1920.1007" timestamp="1599448233040" />
+    <state x="693" y="279" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599470503819">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state x="693" y="279" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1007@0.27.1920.1007" timestamp="1599470503819" />
+    <state x="499" y="95" width="912" height="878" key="CommitChangelistDialog2" timestamp="1599567716223">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state x="499" y="95" width="912" height="878" key="CommitChangelistDialog2/0.27.1920.1007@0.27.1920.1007" timestamp="1599567716223" />
+    <state x="182" y="117" width="1536" height="842" key="DiffContextDialog" timestamp="1599568909926">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state x="182" y="117" width="1536" height="842" key="DiffContextDialog/0.27.1920.1007@0.27.1920.1007" timestamp="1599568909926" />
+    <state x="1177" y="209" width="424" height="520" key="FileChooserDialogImpl" timestamp="1599569079555">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state x="1177" y="209" width="424" height="520" key="FileChooserDialogImpl/0.27.1920.1007@0.27.1920.1007" timestamp="1599569079555" />
+    <state x="675" y="456" width="364" height="165" key="Github.CreateGistDialog" timestamp="1599566891957">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state x="675" y="456" width="364" height="165" key="Github.CreateGistDialog/0.27.1920.1007@0.27.1920.1007" timestamp="1599566891957" />
+    <state x="805" y="430" width="310" height="285" key="Github.ShareDialog" timestamp="1599567784906">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state x="805" y="430" width="310" height="285" key="Github.ShareDialog/0.27.1920.1007@0.27.1920.1007" timestamp="1599567784906" />
+    <state x="656" y="207" width="597" height="654" key="Github.UntrackedFilesDialog" timestamp="1599567802576">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state x="656" y="207" width="597" height="654" key="Github.UntrackedFilesDialog/0.27.1920.1007@0.27.1920.1007" timestamp="1599567802576" />
+    <state width="1872" height="428" key="GridCell.Tab.0.bottom" timestamp="1599569603887">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state width="1872" height="428" key="GridCell.Tab.0.bottom/0.27.1920.1007@0.27.1920.1007" timestamp="1599569603887" />
+    <state width="1392" height="145" key="GridCell.Tab.0.bottom/0.27.1920.827/1920.0.1440.900@1920.0.1440.900" timestamp="1599144523648" />
+    <state width="1872" height="428" key="GridCell.Tab.0.center" timestamp="1599569603884">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state width="1872" height="428" key="GridCell.Tab.0.center/0.27.1920.1007@0.27.1920.1007" timestamp="1599569603884" />
+    <state width="1392" height="145" key="GridCell.Tab.0.center/0.27.1920.827/1920.0.1440.900@1920.0.1440.900" timestamp="1599144523648" />
+    <state width="1872" height="428" key="GridCell.Tab.0.left" timestamp="1599569603883">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state width="1872" height="428" key="GridCell.Tab.0.left/0.27.1920.1007@0.27.1920.1007" timestamp="1599569603883" />
+    <state width="1392" height="145" key="GridCell.Tab.0.left/0.27.1920.827/1920.0.1440.900@1920.0.1440.900" timestamp="1599144523648" />
+    <state width="1872" height="428" key="GridCell.Tab.0.right" timestamp="1599569603886">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state width="1872" height="428" key="GridCell.Tab.0.right/0.27.1920.1007@0.27.1920.1007" timestamp="1599569603886" />
+    <state width="1392" height="145" key="GridCell.Tab.0.right/0.27.1920.827/1920.0.1440.900@1920.0.1440.900" timestamp="1599144523648" />
+    <state width="1872" height="2" key="GridCell.Tab.1.bottom" timestamp="1599567515465">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state width="1872" height="2" key="GridCell.Tab.1.bottom/0.27.1920.1007@0.27.1920.1007" timestamp="1599567515465" />
+    <state width="1392" height="145" key="GridCell.Tab.1.bottom/0.27.1920.827/1920.0.1440.900@1920.0.1440.900" timestamp="1599144523648" />
+    <state width="1872" height="2" key="GridCell.Tab.1.center" timestamp="1599567515465">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state width="1872" height="2" key="GridCell.Tab.1.center/0.27.1920.1007@0.27.1920.1007" timestamp="1599567515465" />
+    <state width="1392" height="145" key="GridCell.Tab.1.center/0.27.1920.827/1920.0.1440.900@1920.0.1440.900" timestamp="1599144523648" />
+    <state width="1872" height="2" key="GridCell.Tab.1.left" timestamp="1599567515465">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state width="1872" height="2" key="GridCell.Tab.1.left/0.27.1920.1007@0.27.1920.1007" timestamp="1599567515465" />
+    <state width="1392" height="145" key="GridCell.Tab.1.left/0.27.1920.827/1920.0.1440.900@1920.0.1440.900" timestamp="1599144523648" />
+    <state width="1872" height="2" key="GridCell.Tab.1.right" timestamp="1599567515465">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state width="1872" height="2" key="GridCell.Tab.1.right/0.27.1920.1007@0.27.1920.1007" timestamp="1599567515465" />
+    <state width="1392" height="145" key="GridCell.Tab.1.right/0.27.1920.827/1920.0.1440.900@1920.0.1440.900" timestamp="1599144523648" />
+    <state width="1872" height="339" key="GridCell.Tab.2.bottom" timestamp="1599299373114">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state width="1872" height="339" key="GridCell.Tab.2.bottom/0.27.1920.1007@0.27.1920.1007" timestamp="1599299373114" />
+    <state width="1392" height="145" key="GridCell.Tab.2.bottom/0.27.1920.827/1920.0.1440.900@1920.0.1440.900" timestamp="1599144523648" />
+    <state width="1872" height="339" key="GridCell.Tab.2.center" timestamp="1599299373114">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state width="1872" height="339" key="GridCell.Tab.2.center/0.27.1920.1007@0.27.1920.1007" timestamp="1599299373114" />
+    <state width="1392" height="145" key="GridCell.Tab.2.center/0.27.1920.827/1920.0.1440.900@1920.0.1440.900" timestamp="1599144523648" />
+    <state width="1872" height="339" key="GridCell.Tab.2.left" timestamp="1599299373114">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state width="1872" height="339" key="GridCell.Tab.2.left/0.27.1920.1007@0.27.1920.1007" timestamp="1599299373114" />
+    <state width="1392" height="145" key="GridCell.Tab.2.left/0.27.1920.827/1920.0.1440.900@1920.0.1440.900" timestamp="1599144523648" />
+    <state width="1872" height="339" key="GridCell.Tab.2.right" timestamp="1599299373114">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state width="1872" height="339" key="GridCell.Tab.2.right/0.27.1920.1007@0.27.1920.1007" timestamp="1599299373114" />
+    <state width="1392" height="145" key="GridCell.Tab.2.right/0.27.1920.827/1920.0.1440.900@1920.0.1440.900" timestamp="1599144523648" />
+    <state x="2225" y="143" width="820" height="612" key="Registry" timestamp="1599129427848">
+      <screen x="1920" y="0" width="1440" height="900" />
+    </state>
+    <state x="2225" y="143" width="820" height="612" key="Registry/0.27.1920.827/1920.0.1440.900@1920.0.1440.900" timestamp="1599129427848" />
+    <state x="646" y="214" width="617" height="640" key="RollbackChangesDialog" timestamp="1599569217878">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state x="646" y="214" width="617" height="640" key="RollbackChangesDialog/0.27.1920.1007@0.27.1920.1007" timestamp="1599569217878" />
+    <state x="299" y="96" width="992" height="737" key="SettingsEditor" timestamp="1599569552765">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state x="299" y="96" width="992" height="737" key="SettingsEditor/0.27.1920.1007@0.27.1920.1007" timestamp="1599569552765" />
+    <state x="2144" y="62" width="992" height="737" key="SettingsEditor/0.27.1920.827/1920.0.1440.900@1920.0.1440.900" timestamp="1599129222169" />
+    <state x="234" y="310" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1599569154269">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state x="234" y="310" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1007@0.27.1920.1007" timestamp="1599569154269" />
+    <state x="774" y="445" width="362" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599567372360">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state x="774" y="445" width="362" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1007@0.27.1920.1007" timestamp="1599567372360" />
+    <state x="351" y="190" width="1039" height="654" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1599549098508">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state x="351" y="190" width="1039" height="654" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.27.1920.1007@0.27.1920.1007" timestamp="1599549098508" />
+    <state x="2183" y="146" width="904" height="654" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.27.1920.827/1920.0.1440.900@1920.0.1440.900" timestamp="1599136533127" />
+    <state x="721" y="288" width="1199" height="599" key="new project wizard" timestamp="1599350567596">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state x="721" y="288" width="1199" height="599" key="new project wizard/0.27.1920.1007@0.27.1920.1007" timestamp="1599350567596" />
+    <state x="511" y="231" width="896" height="759" key="search.everywhere.popup" timestamp="1599395640136">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state x="511" y="231" width="896" height="759" key="search.everywhere.popup/0.27.1920.1007@0.27.1920.1007" timestamp="1599395640136" />
+    <state x="2303" y="182" width="672" height="678" key="search.everywhere.popup/0.27.1920.827/1920.0.1440.900@1920.0.1440.900" timestamp="1599139271382" />
+    <state x="793" y="324" width="324" height="419" key="svn.repositoryBrowser" timestamp="1599568490226">
+      <screen x="0" y="27" width="1920" height="1007" />
+    </state>
+    <state x="793" y="324" width="324" height="419" key="svn.repositoryBrowser/0.27.1920.1007@0.27.1920.1007" timestamp="1599568490226" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.web.util.NestedServletException" package="org.springframework.web.util" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/drc/ExaminationSystemApplicationTests.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Remote">
+        <watch expression="((DruidDataSource)dataSource).driverClass" custom="com.alibaba.druid.pool.DruidDataSource" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
