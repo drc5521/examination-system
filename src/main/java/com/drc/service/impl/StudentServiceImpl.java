@@ -1,20 +1,15 @@
 package com.drc.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.drc.bean.Questions;
 import com.drc.mapper.GetQuestions;
 import com.drc.mapper.QuestionsMybatisPlusMapper;
 import com.drc.mapper.StudentMybatisPlusMapper;
 import com.drc.service.StudentService;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.Bean;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
-import top.jfunc.common.converter.DefaultJsonConverter;
-import top.jfunc.common.converter.JsonConverter;
 
 import java.util.HashMap;
 import java.util.List;

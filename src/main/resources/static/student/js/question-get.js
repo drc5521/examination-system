@@ -41,6 +41,7 @@ const app =new Vue({
         return{
             questions:new Array(),
             options:new Array(),
+            answer:'answer',
         }
     },
     created(){

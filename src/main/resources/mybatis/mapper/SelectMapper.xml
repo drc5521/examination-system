@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.drc.mapper.SelectCountMapper">
+<mapper namespace="com.drc.mapper.SelectMapper">
     <select id="questionsCount" resultType="int">
         select count(*) from questions;
     </select>
 
     <select id="userCount" resultType="int">
         select count(*) from student;
+    </select>
+
+    <select id="selectType" resultType="questionType">
+        select * from question_type;
     </select>
 </mapper>

@@ -34,7 +34,7 @@ public class UrlConfig implements WebMvcConfigurer {
         registry.addViewController("/welcome.html").setViewName("/admin/welcome");
         registry.addViewController("/").setViewName("/admin/index");
         registry.addViewController("/index.html").setViewName("/admin/index");
-        registry.addViewController("/questions-add.html").setViewName("/admin/questions-add");
+        registry.addViewController("/admin/questions-add").setViewName("/admin/questions-add");
         registry.addViewController("/question-modify.html").setViewName("/admin/question-modify");
         registry.addViewController("/student/question.html").setViewName("/student/question");
 

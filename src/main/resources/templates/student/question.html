@@ -45,9 +45,9 @@
                     <div class="test_content_nr"  id="single">
 
                         <ul>
-                           <li v-for="item in questions" >
+                           <li v-for="(item,index) in questions" >
                                 <div class="test_content_nr_tt">
-                                    <i>{{item.}}}</i><span>(1分)</span><font>{{item.options.innerMap.item}}</font><b
+                                    <i>{{index+1}}</i><span>(1分)</span><font>{{item.options.innerMap.item}}</font><b
                                         class="icon iconfont">&#xe881;</b>
                                 </div>
                                 <div class="test_content_nr_main">
@@ -55,7 +55,7 @@
 
                                         <li class="option">
 
-                                            <input type="radio" class="radioOrCheck" name="answer1"
+                                            <input type="radio" class="radioOrCheck" :name="answer + index"
                                                    id="0_answer_1_option_1"
                                             />
 
@@ -67,8 +67,7 @@
                                         </li>
 
                                         <li class="option">
-
-                                            <input type="radio" class="radioOrCheck" name="answer1"
+                                            <input type="radio" class="radioOrCheck" :name="answer + index"
                                                    id="0_answer_1_option_2"
                                             />
 
@@ -81,7 +80,7 @@
 
                                         <li class="option">
 
-                                            <input type="radio" class="radioOrCheck" name="answer1"
+                                            <input type="radio" class="radioOrCheck" :name="answer + index"
                                                    id="0_answer_1_option_3"
                                             />
 
@@ -94,7 +93,7 @@
 
                                         <li class="option">
 
-                                            <input type="radio" class="radioOrCheck" name="answer1"
+                                            <input type="radio" class="radioOrCheck" :name="answer + index"
                                                    id="0_answer_1_option_4"
                                             />
 
