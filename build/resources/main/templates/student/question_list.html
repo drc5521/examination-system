@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>答题界面</title>
+</head>
+<body>
+<div th:each="ques:${questions}">
+    <ul th:id="${ques.qid}" th:each="que:${ques.options}" th:utext="${que}"></ul>
+
+</div>
+</body>
+</html>

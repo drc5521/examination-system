@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.drc.mapper.QuestionMapper">
+    <insert id="addQuestions" parameterType="Question">
+        insert into questions(stem, options, answer, analysis, tid, cid, sid) values (#{stem},#{options},#{answer},#{analysis},#{tid},#{cid},#{sid});
+    </insert>
+</mapper>
