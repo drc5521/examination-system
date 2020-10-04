@@ -33,7 +33,7 @@ public interface AdminService {
     //添加试题
     public void addQuestions(AddQuestion AddQuestion);
 
-    //查询试题类型（单选还是多选或者判断）
+    //查询试题类型（单选还是多选或者判断）//
     public List<questionType> selectType();
 
 
